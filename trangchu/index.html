@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;600&family=Nunito+Sans:wght@300&family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;600&family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&family=Nunito:wght@800&display=swap"   rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Linh Hoạt Viên SVCG Đà Nẵng</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+           
+            <!--phần header-->
+            <div class="toolbar">
+                <!-- thanh cong cu -->
+                <img class="imgLogo" src="/images/logonhomlon.png" alt="Logo">
+                <div> <a href="#" class="btn ">Đăng Ký</a> </div>
+                <div> <a href="#" class="btn ">Đăng Nhập</a> </div>
+                <!-- Nut Search -->
+                <div class="box">
+                    <div class="container-1">
+                        <input type="search" id="search" placeholder="Search..." />
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <!-- thanh menu -->
+                <ul style="display:block;margin-right: auto;margin-left: 200px;">
+                    <li><a href="#"><b>Trò Chơi</b> </a></li>
+                    <li><a href="#"><b>Lửa Trại</b> </a>
+                        <ul class="subMenu">
+                            <li> <a href="#"> Chụp Ảnh cưới </a> <br></li>
+                            <li> <a href="#"> Chụp Ảnh PSC </a></li>
+                            <li> <a href="#"> Chụp Ảnh Gia Đình </a></li>
+                            <li> <a href="#"> Chụp Ảnh Cho Bé </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><b>Thiêng Liêng</b> </a>
+                        <ul class="subMenu">
+                            <li> <a href="#"> Quay Pre-Wedding </a> <br></li>
+                            <li> <a href="#"> Quay Phóng Sự cưới </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><b>Bài Hát</b> </a></li>
+                    <li><a href="#"><b>Cử Điệu</b> </a></li>
+                    <li><a href="#"><b>Kỹ Năng</b> </a></li>
+                </ul>
+            </div>
+            <div class="banner">
+                <!-- day la banner -->
+                <div class="w3-content w3-section">
+                    <img class="mySlides" src="/images/sieuxe/bo-suu-tap-hinh-nen-4.jpg">
+                    <img class="mySlides" src="/images/sieuxe/DGogkhF.jpg">
+                    <img class="mySlides" src="/images/sieuxe/unnamed.jpg">
+                </div>
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) { myIndex = 1 }
+                        x[myIndex - 1].style.display = "block";
+                        setTimeout(carousel, 2000); // Change image every 2 seconds
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="content">
+            <div class="aboutLHV">
+                <!-- thong tin linh hoat vien -->
+                <div class="informationLhv">
+                    <h3>LINH HOẠT VIÊN ĐÀ NẴNG</h3>
+                    <p>Bất cứ nhóm nào, tập thể nào cũng cần có sức sống, sự năng động. <br>
+                        Nên cần có một người nhiệt thành, quan tâm, trao đổi và liên kết mọi người xích <br>
+                        lại gần nhau hơn trong mối dây giao hảo huynh đệ đại đồng. <br> Người đó tạm gọi là Linh Hoạt Viên
+                        (LHV)
+                    </p>
+                    <div class="row">
+                        <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-ok"></i>
+                        </button>
+                        <div> <h5>2PM - 5PM</h5> </div>
+                    </div>
+                    <div class="row">
+                        <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-ok"></i>
+                        </button>
+                        <div> <h5> CHỦ NHẬT HẰNG TUẦN </h5> </div>
+                    </div>
+                </div>
+                <div class="informationLhvImage" >
+                <img src="/images/desgin/chua-giesu-142-350x340.jpg" alt="hinh anh">
+                </div>
+            </div>
+                <div class="activities">
+                    <!-- cac hoat dong linh hoat vien -->
+                    <h3>HOẠT ĐỘNG CỦA CHÚNG TÔI </h3>
+                    <div class="row">
+                        <div class="col-sm-4" >
+                            <img src="/images/desgin/29060905_201788703930166_7219901841963812202_o.jpg" alt="">
+                        </div>
+                        <div class="col-sm-4" >
+                            <img src="/images/desgin/43173606_1439984789468458_5638339461671550976_n.jpg" alt="">
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="/images/desgin/46083188_1909120305844523_427415822240055296_n.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="/images/desgin/46813824_2282425445324666_3067934885160157184_n.jpg" alt="">
+                        </div>
+                        <div class="col-sm-4" >
+                            <img src="/images/desgin/59825901_1598819100251692_6674641329902845952_o.jpg" alt="">
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="/images/desgin/60737685_874344462923642_4158697393971265536_o.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <div class="footer">
+                <!-- phan footer -->
+                <div class="row">
+                    <div class="col-sm-4" >
+                        <h5>Liên hệ</h5>
+                        <div class="contentFooter"> Ở đâu cần LHV có - Ở đâu khó có LHV</div>
+                        <div style="border-bottom: 2px dashed white ; width: 70%; margin-left: 40px;" > </div>
+                        <div class="contentFooter"> linhhoatviendanang@gmail.com </div>
+                        <div style="border-bottom: 2px dashed white ; width: 70%;margin-left: 40px;"> </div>
+                        <div class="contentFooter">0989 586 333 - 0986 972 368</div>
+                    </div>
+                    <div class="col-sm-3" >
+                        <h5>Thư Viện</h5>
+                        <div style="width: 130px ; float: left;">
+                            <div class="contentFooter"> Trò chơi</div>
+                            <div class="contentFooter"> Lửa Trại</div>
+                            <div class="contentFooter"> Thiêng Liêng</div>
+                            <div class="contentFooter"> Cử Điệu</div>
+                        </div>
+                        <div style="float: left;">
+                            <div class="contentFooter"> Bài Hát</div>
+                            <div class="contentFooter"> Kỹ Năng</div> 
+                        </div>                 
+                    </div>
+                    <div class="col-sm-5">
+                       
+                    </div>
+            </div>
+    </div>
+
+</body>
+
+</html>

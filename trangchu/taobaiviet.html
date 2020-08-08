@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="taobaiviet.css">
+    <script type="text/javascript" src="js/bootstrap-filestyle.min.js"> </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A CHẤT ĐẸP TRAI</title>
+</head>
+
+<body>
+<div class="container">
+            <!-- Tại trang này e chia làm 2 div.Một dev thongTinTaiKhoan và 1 dev taoBaiViet -->
+    <div class="thongTinTaiKhoan">  
+        <div class="khungHinh">
+            <img src="/images/desgin/gaixinh.jpg" alt="">  <!-- đây là avt -->
+            <h4>MY CRUSH</h4>
+        </div>
+    </div>
+    <div class="taoBaiViet">
+        <h4>TẠO BÀI VIẾT</h4> 
+        <!-- e lấy thư viện bootstrap để tạo các ô text và textarea  -->
+        <form class="form-horizontal" role="form" action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+              <div class="col-sm-10">
+                <input type="email" class="form-control " id="name1" placeholder="Tên Trò Chơi">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-10">
+              <select class="form-control inputstl" id="gender1" >
+                <option>Trò chơi trong nhà</option>
+                <option>Trò chơi ngoài trời</option>
+              </select>           
+              </div>
+            </div>  
+            <div class="form-group">
+                <div class="col-sm-10">
+                  <input type="email" class="form-control " id="email1" placeholder="Mục đích">
+                </div>
+              </div>    
+            <div class="form-group">
+              <div class="col-sm-10">
+                <input type="email" class="form-control " id="email1" placeholder="Số Lượng">
+              </div>
+            </div>
+           
+            <div class="form-group">
+              <div class="col-sm-10">
+                <input type="text" class="form-control " id="address1" placeholder="Thời Gian">
+              </div>
+            </div>   
+            <div class="form-group">
+                <div class="col-sm-10">
+                  <textarea type="textarea" class="form-control " id="address1" placeholder="Cách chơi"></textarea>
+                </div>
+            </div>           
+      
+            <div class="form-group">
+              <div class="col-sm-10">
+                <input type="file" class="inputstl" id="selphoto" name="sentfile">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" class="inputstl"> Tôi đồng ý với các điều khoản
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-8">
+                <button type="submit" class="btn btn-danger">ĐĂNG BÀI</button>
+              </div>
+            </div>
+          </form>
+         </div> 
+      <script>
+                  $('#selphoto').filestyle({
+                      buttonName : 'btn-primary',
+                      buttonText : ' Open',
+                      iconName : 'glyphicon glyphicon-upload'
+                  });
+      </script>  
+
+    </div>
+</body>
+</html>
